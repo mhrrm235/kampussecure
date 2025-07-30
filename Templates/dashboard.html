@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block content %}
+<h2 class="text-3xl font-bold text-center mb-8">Dashboard</h2>
+<div class="max-w-xl mx-auto grid grid-cols-1 gap-6">
+  <a href="/scan" class="block p-6 rounded-lg shadow bg-blue-500 text-white text-lg font-semibold hover:bg-blue-600 transition">Scan Website</a>
+  <a href="/edukasi" class="block p-6 rounded-lg shadow bg-green-500 text-white text-lg font-semibold hover:bg-green-600 transition">Edukasi</a>
+  <a href="/logout" class="block p-6 rounded-lg shadow bg-red-500 text-white text-lg font-semibold hover:bg-red-600 transition">Logout</a>
+</div>
+{% endblock %}

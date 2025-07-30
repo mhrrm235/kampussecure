@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block title %}Edukasi Siber - KampusSecure{% endblock %}
+{% block content %}
+<h2 class="text-3xl font-bold text-center mb-8">Materi Edukasi Siber</h2>
+<div class="max-w-2xl mx-auto">
+  {% for article in articles %}
+  <div x-data="{ open: false }" class="mb-4 border border-blue-200 rounded-lg shadow-sm bg-blue-50">
+    <button @click="open = !open" class="w-full flex justify-between items-center px-6 py-4 text-lg font-semibold text-blue-900 focus:outline-none">
+      <span>{{ article.title }}</span>
+      <svg :class="{'rotate-180': open}" class="w-6 h-6 transform transition-transform duration-200" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+    </button>
+    <div x-show="open" x-transition class="px-6 py-4 border-t border-blue-200 bg-white text-blue-900">
+      {{ article.content }}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<!-- Alpine.js for accordion -->
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+{% endblock %}

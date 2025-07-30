@@ -1,0 +1,23 @@
+2025-07-30 18:47:52,https://jurnal.usi.ac.id/index.php/ekuilnomi/article/view/254	,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', 'https://jurnal.usi.ac.id/index.php/ekuilnomi/arti..."
+2025-07-30 18:49:06,https://jurnal.usi.ac.id/index.php/ekuilnomi/article/view/254,Nmap & WhatWeb,"=== Kategori Link: Tidak Berbahaya ===
+
+=== Nmap Scan ===
+Starting Nmap 7.96 ( https://nmap.org ) at..."
+2025-07-30 18:49:34,https://jurnal.usi.ac.id/,Nmap & WhatWeb,"=== Kategori Link: Tidak Berbahaya ===
+
+=== Nmap Scan ===
+Starting Nmap 7.96 ( https://nmap.org ) at..."
+2025-07-30 18:55:12,https://journal.stieamkop.ac.id/index.php/mirai/article/view/6096,Nmap & WhatWeb,"=== Kategori Link: Tidak Berbahaya ===
+
+VirusTotal: 0 malicious, 0 suspicious, 0 harmless
+
+=== Nmap ..."
+2025-07-30 19:13:10,https://journal.stieamkop.ac.id/index.php/mirai/article/view/6096,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'https://journal.stieamkop.ac.id/ind..."
+2025-07-30 19:15:21,https://journal.stieamkop.ac.id/,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'journal.stieamkop.ac.id']' returned..."
+2025-07-30 19:15:42,journal.stieamkop.ac.id,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'journal.stieamkop.ac.id']' returned..."
+2025-07-30 19:16:48,journal.stieamkop.ac.id,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'journal.stieamkop.ac.id']' returned..."
+2025-07-30 19:17:10,https://www.infeb.org/index.php/infeb/article/view/250,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'www.infeb.org']' returned non-zero ..."
+2025-07-30 19:17:45,https://www.infeb.org/index.php/infeb/article/view/250,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'www.infeb.org']' returned non-zero ..."
+2025-07-30 19:18:48,https://www.infeb.org/index.php/infeb/article/view/250,Nmap & WhatWeb,"Terjadi kesalahan saat scan: Command '['whatweb', '--no-color', 'www.infeb.org']' returned non-zero ..."
+2025-07-30 19:21:44,https://jurnal.usi.ac.id/index.php/ekuilnomi/article/view/254,Nmap & WhatWeb,"=== URL Target: https://jurnal.usi.ac.id/index.php/ekuilnomi/article/view/254 ===
+=== Target Scan: j..."

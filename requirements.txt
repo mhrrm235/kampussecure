@@ -1,0 +1,5 @@
+Flask==3.0.0
+fpdf==1.7.2
+Werkzeug==3.0.1
+whatweb==0.0.8
+python-nmap==0.7.1

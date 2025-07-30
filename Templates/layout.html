@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}KampusSecure{% endblock %}</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-light">
+    <!-- Navbar Tailwind -->
+    <nav class="bg-blue-900 text-white px-6 py-4 flex items-center justify-between shadow">
+      <a href="/" class="text-2xl font-bold tracking-wide">KampusSecure</a>
+      <div class="flex gap-6">
+        <a href="/scan" class="hover:text-yellow-300 transition">Scan</a>
+        <a href="/edukasi" class="hover:text-yellow-300 transition">Edukasi</a>
+        <a href="/laporan" class="hover:text-yellow-300 transition">Laporan</a>
+        <a href="/logout" class="text-yellow-400 hover:text-yellow-300 font-semibold transition">Logout</a>
+      </div>
+    </nav>
+
+    <div class="max-w-5xl mx-auto px-4 py-8">
+      {% with messages = get_flashed_messages() %}
+        {% if messages %}
+          {% for msg in messages %}
+            <div class="bg-blue-100 border-l-4 border-blue-500 text-blue-700 p-4 mb-4">{{ msg }}</div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+
+      {% block content %}{% endblock %}
+    </div>
+</body>
+
+</html>
